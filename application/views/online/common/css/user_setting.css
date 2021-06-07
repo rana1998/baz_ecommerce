@@ -1,0 +1,254 @@
+
+body
+{
+  //background-color: #f2f2f2;
+}
+
+/*#mainContentDiv
+{
+  display:none;
+}
+*/
+.classContentDiv
+{
+  float:right;
+  width:85%;
+}
+/*
+.mytable{
+  width: 90%;
+  height: 90%;
+}*/
+.nav
+{
+	
+	height:50px;
+  box-sizing: border-box;
+  background-color:rgba(0,0,0,0.4);
+}
+
+.nav>ul
+{
+	width:100%;
+	list-style-type: none;
+  
+}
+
+.nav>ul>li
+{
+	float:left;
+	box-sizing: border-box;
+	//width:250px;
+	width:50%;
+	height:50px;
+	padding:1.2%;
+	text-align:center;
+	color:white;
+  border:2px solid white;
+  cursor:pointer;
+	
+}
+
+.nav>ul>li:active
+{
+  background-color: red;
+}
+
+button
+{
+  background-color:green;
+  color:white;
+  outline:none;
+  border:1px solid green;
+}
+
+.navDiv
+{
+	float:right;
+	width:85%;
+}
+
+.navDiv>section
+{
+	height:460px;
+	background-color:tomato;
+	position: absolute;
+	font-size:100px;
+	display: none;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+#one
+{
+	  width:90%;
+    margin-top:5%;
+    display: none;
+   
+ }
+
+#two
+{
+  width:100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+  display:block;
+}
+
+form
+{
+  padding:5%;
+  background-color: #dddddd;
+}
+
+label
+{
+	width:200px;
+}
+
+
+select
+{
+  width:100%;
+  padding:12px 20px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  //margin-left:10%;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  //margin: 8px 0;
+  margin-top:2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  /*color:white;*/
+  padding: 20px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 25px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+
+}
+
+/* The Close Button */
+.close {
+
+ color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}       
+
+
+
+/* The Modal (background) */
+.modalTwo {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  //background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+   //background-color:white;
+  //color:white;
+  padding: 20px;
+}
+
+
+/* The Close Button */
+.closetwo {
+
+ color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closetwo:hover,
+.closetwo:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#two
+{
+  max-height: 600px;
+  overflow: auto;
+}
+
+
+#one
+{
+  max-height: 800px;
+  overflow: auto;
+}

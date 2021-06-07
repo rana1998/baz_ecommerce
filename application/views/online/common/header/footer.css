@@ -1,0 +1,50 @@
+
+
+
+
+  
+    .mobile-footer {
+  
+  
+    position: fixed;
+    left: 0;
+  bottom: 0;
+  
+    width: 100%;
+    color: #fff;
+    background-color: #FE0000;
+
+    text-align: center;
+    height:55px;
+    
+  box-shadow: rgb(0, 0, 0) -1px 9px 50px -12px;
+  display: flex; 
+  margin-left: 0px;
+  
+    
+  }
+  .mobile-footer-menu{
+    
+    flex-basis: 25%;
+    margin-top: 2px;
+  }
+
+    .mobile-footer-menu-link{
+    color:#fff;
+        font-size:25px; 
+       margin-top:0px; 
+       padding: 7px;
+       
+       margin: 0 auto;
+       
+    }
+    .mobile-footer-menu-link:hover{
+    color: #efe;
+        font-size:27px;
+  }
+  
+  .mobile-footer-menu-text{
+    font-size:10px;
+    margin-bottom:2px;
+  }
+

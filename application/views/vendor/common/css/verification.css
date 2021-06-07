@@ -1,0 +1,13 @@
+
+.navbar{
+  background-color:#f55742;
+
+}
+
+body{
+  background: url("<?php
+  echo base_url('assets/vendor/bdp.jpg');?>");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Noto Sans HK', sans-serif;
+}

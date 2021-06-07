@@ -1,0 +1,342 @@
+body,
+		html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			/*background: #60a3bc !important;*/
+			background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg')!important;
+background-size: cover !important;
+/*background-repeat: no-repeat !important;*/
+height: 100% !important;
+font-family: 'Numans', sans-serif !important;
+		}
+
+
+		.user_card {
+			height: 400px;
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			/*background: #f39c12;*/
+			background-color: rgba(0,0,0,0.6);
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			/*background: #60a3bc;*/
+			background-color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			/*border: 2px solid white;*/
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #c0392b !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #c0392b !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #c0392b !important;
+		}
+
+
+		 *
+    {
+        margin:0 auto;
+        padding:0;
+        font-family: Arial,sans-serif;
+    }
+
+
+    html {
+       /*height: 100%;*/
+       height:auto;
+    }
+
+      body
+      {
+        width:100%;
+        /*background-image: linear-gradient(124deg,#ff6a00,#ee0979);*/
+        /*background-image: linear-gradient(124deg,#8A2BE2,#8A2BE2);*/
+        /*background-color:  #8A2BE2;*/
+        background-color:#ffffcc;
+        /*min-height: 100%;*/
+        height:1000px;
+        /*background-repeat: no-repeat;*/
+      }
+
+
+    .footer
+    {
+        width:100%;
+        text-align: center;
+        margin-top:15%;
+        font-size: 16px;
+        /*bottom: 0px;*/
+        /*position: fixed;*/
+    }
+   
+    h2
+    {
+        font-size: 60px !important;
+        color:white;
+    }
+
+    .login
+    {
+        color:red;
+        background-color: white;
+        width:30%;
+        /*padding:1%;*/
+    }
+
+    /*add full-width input fields*/ 
+    input[type=text], 
+    input[type=email],
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 2px solid #ccc; 
+        box-sizing: border-box; 
+    } 
+    /* set a style for all buttons*/ 
+    button { 
+        /*background-color: green; */
+        /*background-color:#fffa84;*/
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        cursor: pointer; 
+        width: 100%; 
+        border:none;
+        width:30%;
+        /*padding:1%;*/
+    } 
+    /*set styles for the cancel button*/ 
+    .cancelbtn { 
+        padding: 14px 20px; 
+        background-color: #FF2E00; 
+    } 
+    /*float cancel and signup buttons and add an equal width*/ 
+    .cancelbtn, 
+    .signupbtn { 
+        float: left; 
+        width: 50% 
+    } 
+
+     
+    #logId:focus
+{
+    border:none;
+}
+    /*add padding to container elements*/ 
+    .container { 
+        padding: 25px; 
+        border-radius: 20px;
+    } 
+    /*define the modal’s background*/ 
+      
+    .modal { 
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0; 
+        top: 0; 
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0, 0, 0); 
+        background-color: rgba(0, 0, 0, 0.4); 
+        padding-top: 60px; 
+    } 
+    /*define the modal-content background*/ 
+      
+    .modal-content { 
+        /*background-color: #fefefe; */
+        background-color: rgba(0,0,0,0.5);
+        margin: 5% auto 15% auto; 
+        border: 1px solid #888; 
+        /*width: 80%; */
+        width:60%;
+        border-radius: 30px;
+    } 
+    /*define the close button*/ 
+      
+    .close { 
+        position: absolute; 
+        right: 35px; 
+        top: 15px; 
+        color: #000; 
+        font-size: 40px; 
+        font-weight: bold; 
+    } 
+    /*define the close hover and focus effects*/ 
+      
+    .close:hover, 
+    .close:focus { 
+        color: red; 
+        cursor: pointer; 
+    } 
+      
+    .clearfix::after { 
+        content: ""; 
+        clear: both; 
+        display: table; 
+    } 
+      
+    @media only screen and (max-width: 768px) {
+    .modal-content { 
+       
+        margin-top:20% 
+        
+    }
+}
+
+
+
+#ladda1
+{
+  display:none;
+}
+
+#ladda2
+{
+  display:none;
+}
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: left;
+  margin:1%;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  /*background-color: #2196F3;*/
+  background-color: yellow;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+hr
+{
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+
+.log { 
+        float: left; 
+        width: 100%; 
+        color:black;
+        font-weight: 800;
+        font-family: arial;
+        border-radius: 20px;
+        box-shadow: 5px 10px 18px #888888;
+        margin-bottom: 5%;
+        background-color: #FFA500;
+    } 
+
+select
+{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /*box-sizing: border-box;*/
+}    
+
+label
+{color:white;}

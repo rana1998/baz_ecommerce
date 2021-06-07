@@ -1,0 +1,35 @@
+
+
+.nav
+{
+  width:100%;
+  display: flex;
+  background-color:#FE0000;
+  color:white;
+  text-align: center;
+}
+
+.nav>div
+{
+  flex: 1;
+}
+
+
+.nav>div:nth-child(1)
+{
+  padding:2%;
+}
+
+
+
+
+
+
+#Div2 {
+  display: none;
+}
+
+input[type=text]{
+	background-color: transparent;
+	margin-bottom: 10px;
+}
